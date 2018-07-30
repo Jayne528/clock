@@ -1,6 +1,7 @@
 html {
   font-family: Microsoft JhengHei;
-  background: #ECEEF0; }
+  background: #ECEEF0;
+  min-width: 1000px; }
 
 .clock_bg {
   width: 500px;
