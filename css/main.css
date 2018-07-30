@@ -21,99 +21,153 @@ html {
     background: #252C34;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    .clock_bg .clock_circle .clocks {
-      position: absolute;
-      -webkit-animation: run 60s 1;
-      animation: run 60s 1;
-      opacity: 0; }
-      .clock_bg .clock_circle .clocks:before {
-        content: '';
+    .clock_bg .clock_circle .clocks_1 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s; }
+      .clock_bg .clock_circle .clocks_1:before {
+        content: "1";
         color: #FEFFFF;
         font-size: 30px; }
+    .clock_bg .clock_circle .clocks_2 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 0.4s;
+      animation-delay: 0.4s; }
+      .clock_bg .clock_circle .clocks_2:before {
+        content: "2";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_3 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
+      .clock_bg .clock_circle .clocks_3:before {
+        content: "3";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_4 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 0.8s;
+      animation-delay: 0.8s; }
+      .clock_bg .clock_circle .clocks_4:before {
+        content: "4";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_5 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s; }
+      .clock_bg .clock_circle .clocks_5:before {
+        content: "5";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_6 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 1.2s;
+      animation-delay: 1.2s; }
+      .clock_bg .clock_circle .clocks_6:before {
+        content: "6";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_7 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 1.4s;
+      animation-delay: 1.4s; }
+      .clock_bg .clock_circle .clocks_7:before {
+        content: "7";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_8 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 1.6s;
+      animation-delay: 1.6s; }
+      .clock_bg .clock_circle .clocks_8:before {
+        content: "8";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_9 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 1.8s;
+      animation-delay: 1.8s; }
+      .clock_bg .clock_circle .clocks_9:before {
+        content: "9";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_10 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s; }
+      .clock_bg .clock_circle .clocks_10:before {
+        content: "10";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_11 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 2.2s;
+      animation-delay: 2.2s; }
+      .clock_bg .clock_circle .clocks_11:before {
+        content: "11";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks_12 {
+      -webkit-animation: run 2s 1 forwards;
+      animation: run 2s 1 forwards;
+      -webkit-animation-delay: 2.4s;
+      animation-delay: 2.4s; }
+      .clock_bg .clock_circle .clocks_12:before {
+        content: "12";
+        color: #FEFFFF;
+        font-size: 30px; }
+    .clock_bg .clock_circle .clocks {
+      position: absolute;
+      opacity: 0; }
       .clock_bg .clock_circle .clocks_1 {
         top: 10%;
-        right: 26%;
-        -webkit-animation-delay: 0.2s;
-        animation-delay: 0.2s; }
-        .clock_bg .clock_circle .clocks_1:before {
-          content: '1'; }
+        right: 26%; }
       .clock_bg .clock_circle .clocks_2 {
         top: 25%;
-        right: 11%;
-        -webkit-animation-delay: 0.4s;
-        animation-delay: 0.4s; }
-        .clock_bg .clock_circle .clocks_2:before {
-          content: '2'; }
+        right: 11%; }
       .clock_bg .clock_circle .clocks_3 {
         top: 45%;
-        right: 4%;
-        -webkit-animation-delay: 0.6s;
-        animation-delay: 0.6s; }
-        .clock_bg .clock_circle .clocks_3:before {
-          content: '3'; }
+        right: 4%; }
       .clock_bg .clock_circle .clocks_4 {
         bottom: 25%;
-        right: 11%;
-        -webkit-animation-delay: 0.8s;
-        animation-delay: 0.8s; }
-        .clock_bg .clock_circle .clocks_4:before {
-          content: '4'; }
+        right: 11%; }
       .clock_bg .clock_circle .clocks_5 {
         bottom: 10%;
-        right: 26%;
-        -webkit-animation-delay: 1s;
-        animation-delay: 1s; }
-        .clock_bg .clock_circle .clocks_5:before {
-          content: '5'; }
+        right: 26%; }
       .clock_bg .clock_circle .clocks_6 {
         bottom: 4%;
-        left: 49%;
-        -webkit-animation-delay: 1.2s;
-        animation-delay: 1.2s; }
-        .clock_bg .clock_circle .clocks_6:before {
-          content: '6'; }
+        left: 49%; }
       .clock_bg .clock_circle .clocks_7 {
         bottom: 10%;
-        left: 26%;
-        -webkit-animation-delay: 1.4s;
-        animation-delay: 1.4s; }
-        .clock_bg .clock_circle .clocks_7:before {
-          content: '7'; }
+        left: 26%; }
       .clock_bg .clock_circle .clocks_8 {
         bottom: 25%;
-        left: 11%;
-        -webkit-animation-delay: 1.6s;
-        animation-delay: 1.6s; }
-        .clock_bg .clock_circle .clocks_8:before {
-          content: '8'; }
+        left: 11%; }
       .clock_bg .clock_circle .clocks_9 {
         top: 45%;
-        left: 4%;
-        -webkit-animation-delay: 1.8s;
-        animation-delay: 1.8s; }
-        .clock_bg .clock_circle .clocks_9:before {
-          content: '9'; }
+        left: 4%; }
       .clock_bg .clock_circle .clocks_10 {
         top: 25%;
-        left: 11%;
-        -webkit-animation-delay: 2s;
-        animation-delay: 2s; }
-        .clock_bg .clock_circle .clocks_10:before {
-          content: '10'; }
+        left: 11%; }
       .clock_bg .clock_circle .clocks_11 {
         top: 10%;
-        left: 26%;
-        -webkit-animation-delay: 2.2s;
-        animation-delay: 2.2s; }
-        .clock_bg .clock_circle .clocks_11:before {
-          content: '11'; }
+        left: 26%; }
       .clock_bg .clock_circle .clocks_12 {
         top: 4%;
-        right: 47%;
-        -webkit-animation-delay: 2.4s;
-        animation-delay: 2.4s; }
-        .clock_bg .clock_circle .clocks_12:before {
-          content: '12'; }
+        right: 47%; }
     .clock_bg .clock_circle .clocks_circleInside {
       position: absolute;
       width: 100%;
@@ -147,8 +201,8 @@ html {
             padding-bottom: 0%;
             border-radius: 5px;
             opacity: 0;
-            -webkit-animation: run1 60s 3s 1;
-            animation: run1 60s 3s 1; }
+            -webkit-animation: run1 60s 3s 1 forwards;
+            animation: run1 60s 3s 1 forwards; }
   .clock_bg .clocks_circleoutside .time {
     position: relative;
     width: 100%;
@@ -163,7 +217,9 @@ html {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear; }
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
     .clock_bg .clocks_circleoutside_1 .time_minuteHand {
       position: relative; }
       .clock_bg .clocks_circleoutside_1 .time_minuteHand:before {
@@ -178,8 +234,8 @@ html {
         -ms-transform: translate(-50%, 0%);
         transform: translate(-50%, 0%);
         border-radius: 30% 30% 0 0;
-        -webkit-animation: run2 60s 2.8s 1;
-        animation: run2 60s 2.8s 1; }
+        -webkit-animation: run2 60s 2.8s 1 forwards;
+        animation: run2 60s 2.8s 1 forwards; }
   .clock_bg .clocks_circleoutside_2 {
     position: absolute;
     width: 100%;
@@ -190,7 +246,9 @@ html {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear; }
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
     .clock_bg .clocks_circleoutside_2 .time_hourHand {
       position: relative; }
       .clock_bg .clocks_circleoutside_2 .time_hourHand:before {
@@ -204,8 +262,8 @@ html {
         -ms-transform: translate(-50%, 0%);
         transform: translate(-50%, 0%);
         border-radius: 30% 30% 0 0;
-        -webkit-animation: run3 60s 2.6s 1;
-        animation: run3 60s 2.6s 1;
+        -webkit-animation: run3 60s 2.6s 1 forwards;
+        animation: run3 60s 2.6s 1 forwards;
         opacity: 0; }
 
 @-webkit-keyframes turn {
